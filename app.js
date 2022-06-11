@@ -7,3 +7,7 @@ for(i = 1; i < 11; i++){
 
 alert('1から10まで足し算した結果は' + num + 'です');
 
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
+}
